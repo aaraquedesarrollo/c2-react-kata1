@@ -3,6 +3,8 @@ body {
 }
 
 .circulo {
+  min-height: 20px;
+  min-width: 20px;
   height: 200px;
   width: 200px;
   background-color: grey;
@@ -13,8 +15,7 @@ body {
 
 .lista {
   list-style: none;
-}
-
-.lista li {
-  display: inline;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
